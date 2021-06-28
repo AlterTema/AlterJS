@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+//        let result = 10 + 10 + "10";
+//        console.log(result);
+//        let result = 10 + "10" + 10;
+//        console.log(result);
+//        let result = 10 + 10 + +"10";
+//        console.log(result);
+        let result = 10 / -"";
+        console.log(result);
+//        let result = 10 / +"2,5";
+//        console.log(result);
+        
+//(1)Сначала выполняется сложение чисел, а уже потом склеивание со строкой
+//(2)Происходт склеивание числа со строкой и строки с числом
+//(3)+ превращает строчный элемент в число, а далее идет сложение
+//(4) Так как "" - это бесконечность, конгда делим 10 на - бесокнечность, получаем - бесконечность
+//(5)Так как JavaScript не может прочитать 2,5 как 2.5, система апвтоматически выдает ответ NaN (не число)
+    </script>
+</body>
+
+</html>
+
+
+
+
+
