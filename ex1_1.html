@@ -8,15 +8,10 @@
 
 <body>
     <script>
-        var Tc = +prompt("Пожалуйста, введите температуру в градусах по Цельсию");
-
-        Tc = parseInt(Tc);
-        Tf = parseInt(Tf);
-
-        var Tf = (9 / 5) * Tc + 32;
-
+        "use strict"
+        let Tc = parseInt(prompt("Пожалуйста, введите температуру в градусах по Цельсию"));
+        let Tf = (9 / 5) * Tc + 32;
         alert("Температура по Фаренгейту: " + Tf);
-
     </script>
 
 </body>

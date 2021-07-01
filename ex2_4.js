@@ -1,7 +1,6 @@
 
 "use strict"
-var a = prompt("Пожалуйста, введите число");
-var b = prompt("Пожалуйста, введите число");
+
 
 function addition(a, b) {
     return a + b;
