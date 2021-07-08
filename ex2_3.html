@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use strict"
+        let a = prompt("Пожалуйста, введите число");
+        let b = prompt("Пожалуйста, введите число");
+
+        a = parseInt(a);
+        b = parseInt(b);
+
+        if (a >= 0 && b >= 0) {
+            alert("Разность чисел равна: " + (a - b))
+        } else if (a <= 0 && b <= 0) {
+            alert("Произведение чисел равно: " + (a * b))
+        } else if (a > 0 && b < 0 || a < 0 && b > 0) {
+            alert("Сумма чисел равна: " + (a + b))
+        }
+
+    </script>
+
+</body>
+
+</html>
