@@ -16,7 +16,7 @@
         }
         Post.prototype.edit = function (text) {
             this.text = text;
-        }
+        };
         const post1 = new Post('Artem', 'try to do homework', new Date());
         console.log(post1);
         post1.edit('06.07.2021');
@@ -32,7 +32,7 @@
 
         AttachedPost.prototype.makeTextHighlighted = function () {
             this.highlighted = true;
-        }
+        };
         const attached1 = new AttachedPost('Artem', 'try to do homework', new Date());
         console.log(attached1);
         attached1.makeTextHighlighted();
