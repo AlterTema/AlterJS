@@ -11,7 +11,7 @@ const texts = {
     2.1 Переберите полученную коллекцию, например с помощью forEach, и каждой ссылке назначьте
     обработчик клика функцию clickHandler.
 */
-let element = document.querySelector(.text);
+let element = document.querySelector('.text');
 
 let collection = document.querySelectorAll('.nav-link');
 collection.forEach(function (link) {
@@ -46,15 +46,15 @@ function changeActiveClass(event) {
  * @param {MouseEvent} event 
  */
 function changeText(event) {
-    switch (event.target.TextContent) {
+    switch (event.target.textContent) {
         case "Link 1":
-            element.TextContent = texts.text1;
+            element.textContent = texts.text1;
             break;
         case "Link 2":
-            element.TextContent = texts.text2;
+            element.textContent = texts.text2;
             break;
         case "Link 3":
-            element.TextContent = texts.text3;
+            element.textContent = texts.text3;
             break;
     }
 }
